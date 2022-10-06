@@ -1,15 +1,11 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FromEventComponent } from './from-event/from-event.component';
-import { AllComponent } from './all/all.component';
+import { IntervalAndTimerComponent } from './interval-and-timer/interval-and-timer.component';
 
 @NgModule({
-  imports: [
-    CommonModule
-  ],
-  exports:[
-    FromEventComponent,AllComponent
-  ],
-  declarations: [FromEventComponent,AllComponent]
+  imports: [CommonModule],
+  exports: [FromEventComponent, IntervalAndTimerComponent],
+  declarations: [FromEventComponent, IntervalAndTimerComponent],
 })
-export class ObservableModule { }
+export class ObservableModule {}
